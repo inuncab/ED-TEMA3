@@ -9,7 +9,7 @@ package actividad_02_ud3_ed;
 public class CCuenta {
 
     /** Nombre del titular de la cuenta */
-    protected String nombre;
+    protected String nombrecito;
 
     /** Número de cuenta */
     private String cuenta;
@@ -35,7 +35,7 @@ public class CCuenta {
      * @param tipo Tipo de interés aplicado a la cuenta.
      */
     public CCuenta(String nom, String cue, double sal, double tipo) {
-        nombre = nom;
+        nombrecito = nom;
         cuenta = cue;
         saldo = sal;
         tipoInterés = tipo;
@@ -47,7 +47,7 @@ public class CCuenta {
      * @param nom Nombre del titular de la cuenta.
      */
     public void asignarNombre(String nom) {
-        nombre = nom;
+        nombrecito = nom;
     }
 
     /**
@@ -56,7 +56,7 @@ public class CCuenta {
      * @return Nombre del titular de la cuenta.
      */
     public String obtenerNombre() {
-        return nombre;
+        return nombrecito;
     }
 
     /**
